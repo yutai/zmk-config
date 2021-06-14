@@ -28,7 +28,7 @@
 &kp LSHFT	&kp Z	&kp X  &kp C    &kp V    &kp B  &kp LBKT		&kp RBKT	&kp N	&kp M	&kp COMMA	&kp DOT		&kp FSLH 	&kp RET
 					&kp LALT &kp LALT &kp LGUI &mo 1   					&mo 2 &kp SPACE &kp RCTRL &kp RGUI
 			>;
-			sensor-bindings = <&in	c_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
 		};
 
 		lower_layer {
